@@ -1,4 +1,4 @@
-FROM openos365/openos365-10005-openeuler-22-03-lts-docker-main-root:latest
+FROM openos365/openos365-10005-openeuler-22-03-lts-docker-main-www:latest
 
 # 1
 COPY files/ /home/www/files/
