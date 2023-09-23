@@ -16,9 +16,9 @@ else
 			breaksw
 		default:
 			if ( $uid == 0 ) then
-                        	set path = ( ${p} ${path:q} )
+	                        set path = ( ${p} ${path:q} )
 			else
-                        	set path = ( ${path:q} ${p} )
+	                        set path = ( ${path:q} ${p} )
 			endif
 			breaksw
 		endsw
