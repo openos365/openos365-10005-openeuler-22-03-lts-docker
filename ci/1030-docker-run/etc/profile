@@ -42,7 +42,10 @@ else
     pathmunge /usr/sbin after
 fi
 
-HOSTNAME=`/usr/bin/hostname 2>/dev/null`
+HOSTNAME=$(/usr/bin/hostnamectl --transient 2>/dev/null) || \
+HOSTNAME=$(/usr/bin/hostname 2>/dev/null) || \
+HOSTNAME=$(/usr/bin/uname -n)
+
 HISTSIZE=1000
 if [ "$HISTCONTROL" = "ignorespace" ] ; then
     export HISTCONTROL=ignoreboth
@@ -51,16 +54,6 @@ else
 fi
 
 export PATH USER LOGNAME MAIL HOSTNAME HISTSIZE HISTCONTROL
-
-# By default, we want umask to get set. This sets it for login shell
-# Current threshold for system reserved uid/gids is 200
-# You could check uidgid reservation validity in
-# /usr/share/doc/setup-*/uidgid file
-if [ $UID -gt 199 ] && [ "`/usr/bin/id -gn`" = "`/usr/bin/id -un`" ]; then
-    umask 002
-else
-    umask 022
-fi
 
 for i in /etc/profile.d/*.sh /etc/profile.d/sh.local ; do
     if [ -r "$i" ]; then
@@ -74,3 +67,16 @@ done
 
 unset i
 unset -f pathmunge
+
+# Source global bash config, when interactive but not posix or sh mode
+if test "$BASH" &&\
+   test -z "$POSIXLY_CORRECT" &&\
+   test "${0#-}" != sh &&\
+   test -r /etc/bashrc
+then
+   # Bash login shells run only /etc/profile
+   # Bash non-login shells run only /etc/bashrc
+   # Check for double sourcing is done in /etc/bashrc.
+   . /etc/bashrc
+fi
+

@@ -21,7 +21,7 @@ $if mode=emacs
 "\e[5~": history-search-backward
 "\e[6~": history-search-forward
 "\e[3~": delete-char
-"\e[2~": quoted-insert
+"\e[2~": overwrite-mode
 "\e[5C": forward-word
 "\e[5D": backward-word
 "\e[1;5C": forward-word
@@ -40,3 +40,4 @@ $if mode=emacs
 "\e[H": beginning-of-line
 "\e[F": end-of-line
 $endif
+set enable-bracketed-paste 0
