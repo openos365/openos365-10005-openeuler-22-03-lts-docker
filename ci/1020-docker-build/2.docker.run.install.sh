@@ -6,6 +6,6 @@ export PROJECT_NAME="${CMD_PATH##*/}"
 echo $PROJECT_NAME
 cd $CMD_PATH
 
-docker pull openeuler/openeuler:latest
+docker pull openeuler/openeuler:22.03
 
-docker run -i -v ./:/code -w /code openeuler/openeuler:latest /code/files/install.sh
+docker run -i -v ./:/code -w /code openeuler/openeuler:22.03 /code/files/install.sh
