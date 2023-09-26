@@ -34,9 +34,6 @@ dnf --assumeyes install dosfstools
 dnf --assumeyes install git
 dnf --assumeyes install expect
 dnf --assumeyes install vim
-dnf --assumeyes openssh-server
-dnf --assumeyes groupinstall "Development Tools"
-
 
 dnf --assumeyes update
 dnf clean all
