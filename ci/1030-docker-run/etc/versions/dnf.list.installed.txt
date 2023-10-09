@@ -14,7 +14,7 @@ coreutils.x86_64                    9.0-10.oe2203sp1                 @System
 cracklib.x86_64                     2.9.8-2.oe2203sp1                @System    
 crontabs.noarch                     1.11-23.oe2203sp1                @System    
 crypto-policies.noarch              20200619-3.git781bbd4.oe2203sp1  @System    
-cups-libs.x86_64                    1:2.4.0-8.oe2203sp1              @update    
+cups-libs.x86_64                    1:2.4.0-10.oe2203sp1             @update    
 curl.x86_64                         7.79.1-23.oe2203sp1              @System    
 cyrus-sasl-lib.x86_64               2.1.28-1.oe2203sp1               @System    
 dbus-libs.x86_64                    1:1.12.20-9.oe2203sp1            @update    
@@ -47,8 +47,8 @@ git.x86_64                          2.33.0-11.oe2203sp1              @update
 git-core.x86_64                     2.33.0-11.oe2203sp1              @update    
 glassfish-servlet-api.noarch        3.1.0-17.oe2203sp1               @everything
 glib2.x86_64                        2.72.2-11.oe2203sp1              @System    
-glibc.x86_64                        2.34-133.oe2203sp1               @System    
-glibc-common.x86_64                 2.34-133.oe2203sp1               @System    
+glibc.x86_64                        2.34-136.oe2203sp1               @update    
+glibc-common.x86_64                 2.34-136.oe2203sp1               @update    
 gmp.x86_64                          1:6.2.1-2.oe2203sp1              @System    
 gnupg2.x86_64                       2.2.32-5.oe2203sp1               @System    
 gnutls.x86_64                       3.7.2-9.oe2203sp1                @System    
@@ -307,7 +307,7 @@ rpm-libs.x86_64                     4.17.0-28.oe2203sp1              @System
 rsync.x86_64                        3.2.5-1.oe2203sp1                @OS        
 sed.x86_64                          4.8-6.oe2203sp1                  @System    
 setup.noarch                        2.13.9.1-1.oe2203sp1             @System    
-shadow.x86_64                       2:4.9-12.oe2203sp1               @System    
+shadow.x86_64                       2:4.9-13.oe2203sp1               @update    
 slang.x86_64                        2.3.2-9.oe2203sp1                @System    
 sqlite.x86_64                       3.37.2-6.oe2203sp1               @System    
 squashfs-tools.x86_64               4.5-4.oe2203sp1                  @OS        
