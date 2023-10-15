@@ -49,8 +49,8 @@ git.x86_64                                              2.33.0-11.oe2203sp1     
 git-core.x86_64                                         2.33.0-11.oe2203sp1                             @update      
 glassfish-servlet-api.noarch                            3.1.0-17.oe2203sp1                              @everything  
 glib2.x86_64                                            2.72.2-11.oe2203sp1                             @System      
-glibc.x86_64                                            2.34-137.oe2203sp1                              @update      
-glibc-common.x86_64                                     2.34-137.oe2203sp1                              @update      
+glibc.x86_64                                            2.34-136.oe2203sp1                              @update      
+glibc-common.x86_64                                     2.34-136.oe2203sp1                              @update      
 gmp.x86_64                                              1:6.2.1-2.oe2203sp1                             @System      
 gnupg2.x86_64                                           2.2.32-5.oe2203sp1                              @System      
 gnutls.x86_64                                           3.7.2-9.oe2203sp1                               @System      
@@ -99,9 +99,9 @@ libev.x86_64                                            4.33-4.oe2203sp1        
 libevent.x86_64                                         2.1.12-6.oe2203sp1                              @System      
 libfdisk.x86_64                                         2.37.2-13.oe2203sp1                             @OS          
 libffi.x86_64                                           3.4.2-9.oe2203sp1                               @System      
-libgcc.x86_64                                           10.3.1-25.oe2203sp1                             @update      
+libgcc.x86_64                                           10.3.1-24.oe2203sp1                             @System      
 libgcrypt.x86_64                                        1.9.4-4.oe2203sp1                               @System      
-libgomp.x86_64                                          10.3.1-25.oe2203sp1                             @update      
+libgomp.x86_64                                          10.3.1-24.oe2203sp1                             @System      
 libgpg-error.x86_64                                     1.43-2.oe2203sp1                                @System      
 libidn2.x86_64                                          2.3.2-3.oe2203sp1                               @System      
 libksba.x86_64                                          1.6.0-3.oe2203sp1                               @System      
@@ -125,7 +125,7 @@ libsigsegv.x86_64                                       2.14-1.oe2203sp1        
 libsmartcols.x86_64                                     2.37.2-13.oe2203sp1                             @OS          
 libsolv.x86_64                                          0.7.22-2.oe2203sp1                              @System      
 libssh.x86_64                                           0.9.6-7.oe2203sp1                               @System      
-libstdc++.x86_64                                        10.3.1-25.oe2203sp1                             @update      
+libstdc++.x86_64                                        10.3.1-24.oe2203sp1                             @System      
 libtasn1.x86_64                                         4.17.0-3.oe2203sp1                              @System      
 libtirpc.x86_64                                         1.3.2-4.oe2203sp1                               @System      
 libunistring.x86_64                                     1.0-3.oe2203sp1                                 @System      
@@ -333,7 +333,7 @@ util-linux.x86_64                                       2.37.2-13.oe2203sp1     
 vim-common.x86_64                                       2:9.0-17.oe2203sp1                              @update      
 vim-enhanced.x86_64                                     2:9.0-17.oe2203sp1                              @update      
 vim-filesystem.noarch                                   2:9.0-17.oe2203sp1                              @update      
-vim-minimal.x86_64                                      2:9.0-18.oe2203sp1                              @update      
+vim-minimal.x86_64                                      2:9.0-17.oe2203sp1                              @update      
 wget.x86_64                                             1.21.2-3.oe2203sp1                              @OS          
 which.x86_64                                            2.21-15.oe2203sp1                               @System      
 xalan-j2.noarch                                         2.7.1-39.oe2203sp1                              @everything  
