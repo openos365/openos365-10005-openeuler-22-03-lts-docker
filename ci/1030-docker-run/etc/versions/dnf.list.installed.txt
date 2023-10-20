@@ -1,6 +1,6 @@
 attr.x86_64                         2.5.1-4.oe2203sp1                @System    
 audit-libs.x86_64                   1:3.0.1-10.oe2203sp1             @System    
-avahi-libs.x86_64                   0.8-15.oe2203sp1                 @update    
+avahi-libs.x86_64                   0.8-16.oe2203sp1                 @update    
 basesystem.noarch                   12-3.oe2203sp1                   @System    
 bash.x86_64                         5.1.8-8.oe2203sp1                @System    
 bash-completion.noarch              1:2.11-3.oe2203sp1               @OS        
@@ -328,9 +328,9 @@ tzdata-java.noarch                  2022a-11.oe2203sp1               @OS
 unbound-libs.x86_64                 1.13.2-8.oe2203sp1               @System    
 userspace-rcu.x86_64                0.13.0-5.oe2203sp1               @OS        
 util-linux.x86_64                   2.37.2-13.oe2203sp1              @OS        
-vim-common.x86_64                   2:9.0-18.oe2203sp1               @update    
-vim-enhanced.x86_64                 2:9.0-18.oe2203sp1               @update    
-vim-filesystem.noarch               2:9.0-18.oe2203sp1               @update    
+vim-common.x86_64                   2:9.0-19.oe2203sp1               @update    
+vim-enhanced.x86_64                 2:9.0-19.oe2203sp1               @update    
+vim-filesystem.noarch               2:9.0-19.oe2203sp1               @update    
 vim-minimal.x86_64                  2:9.0-19.oe2203sp1               @update    
 wget.x86_64                         1.21.2-3.oe2203sp1               @OS        
 which.x86_64                        2.21-15.oe2203sp1                @System    
