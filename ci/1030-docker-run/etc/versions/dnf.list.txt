@@ -12620,7 +12620,7 @@ nftables-debugsource.x86_64                             1:1.0.0-4.oe2203sp1     
 nftables-devel.x86_64                                   1:1.0.0-4.oe2203sp1                             everything   
 nftables-help.noarch                                    1:1.0.0-4.oe2203sp1                             OS           
 nftables-help.noarch                                    1:1.0.0-4.oe2203sp1                             everything   
-nghttp2.src                                             1.46.0-4.oe2203sp1                              update-source
+nghttp2.src                                             1.46.0-5.oe2203sp1                              update-source
 nghttp2.x86_64                                          1.46.0-5.oe2203sp1                              update       
 nghttp2-debuginfo.x86_64                                1.46.0-5.oe2203sp1                              update       
 nghttp2-debugsource.x86_64                              1.46.0-5.oe2203sp1                              update       
@@ -13875,7 +13875,7 @@ oddjob-debuginfo.x86_64                                 0.34.7-3.oe2203sp1      
 oddjob-debugsource.x86_64                               0.34.7-3.oe2203sp1                              debuginfo    
 oddjob-help.noarch                                      0.34.7-3.oe2203sp1                              OS           
 oddjob-help.noarch                                      0.34.7-3.oe2203sp1                              everything   
-oec-hardware.src                                        1.1.4-2.oe2203sp1                               update-source
+oec-hardware.src                                        1.1.5-0.oe2203sp1                               update-source
 oec-hardware.x86_64                                     1.1.5-0.oe2203sp1                               update       
 oec-hardware-debuginfo.x86_64                           1.1.5-0.oe2203sp1                               update       
 oec-hardware-debugsource.x86_64                         1.1.5-0.oe2203sp1                               update       
