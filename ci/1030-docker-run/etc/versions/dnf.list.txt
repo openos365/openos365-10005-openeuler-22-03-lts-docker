@@ -299,7 +299,7 @@ python3-rpm.x86_64                                      4.17.0-28.oe2203sp1     
 python3-setuptools.noarch                               59.4.0-5.oe2203sp1                              @update      
 python3-six.noarch                                      1.16.0-2.oe2203sp1                              @OS          
 python3-urllib3.noarch                                  1.26.12-5.oe2203sp1                             @update      
-qemu-img.x86_64                                         10:6.2.0-80.oe2203sp1                           @update      
+qemu-img.x86_64                                         10:6.2.0-83.oe2203sp1                           @update      
 qt5-srpm-macros.noarch                                  5.15.2-1.oe2203sp1                              @OS          
 readline.x86_64                                         8.1-3.oe2203sp1                                 @System      
 relaxngDatatype.noarch                                  2011.1-9.oe2203sp1                              @everything  
@@ -348,8 +348,8 @@ zip.x86_64                                              3.0-30.oe2203sp1        
 zlib.x86_64                                             1.2.11-24.oe2203sp1                             @update      
 zstd.x86_64                                             1.5.0-4.oe2203sp1                               @System      
 Available Packages
-389-ds-base.src                                         1.4.3.20-1.oe2203sp1                            source       
 389-ds-base.x86_64                                      1.4.3.20-1.oe2203sp1                            everything   
+389-ds-base.src                                         1.4.3.36-3.oe2203sp1                            update-source
 389-ds-base-debuginfo.x86_64                            1.4.3.20-1.oe2203sp1                            debuginfo    
 389-ds-base-debugsource.x86_64                          1.4.3.20-1.oe2203sp1                            debuginfo    
 389-ds-base-devel.x86_64                                1.4.3.20-1.oe2203sp1                            everything   
@@ -463,8 +463,8 @@ ModemManager-glib.x86_64                                1.14.8-2.oe2203sp1      
 ModemManager-glib-devel.x86_64                          1.14.8-2.oe2203sp1                              everything   
 ModemManager-help.noarch                                1.14.8-2.oe2203sp1                              everything   
 ModemManager-vala.x86_64                                1.14.8-2.oe2203sp1                              everything   
-NetworkManager.src                                      1:1.32.12-19.oe2203sp1                          update-source
 NetworkManager.x86_64                                   1:1.32.12-19.oe2203sp1                          update       
+NetworkManager.src                                      1:1.32.12-20.oe2203sp1                          update-source
 NetworkManager-bluetooth.x86_64                         1:1.32.12-19.oe2203sp1                          update       
 NetworkManager-config-server.noarch                     1:1.32.12-19.oe2203sp1                          update       
 NetworkManager-debuginfo.x86_64                         1:1.32.12-19.oe2203sp1                          update       
@@ -3857,8 +3857,8 @@ firebird-debuginfo.x86_64                               3.0.10.33601-1.oe2203sp1
 firebird-debugsource.x86_64                             3.0.10.33601-1.oe2203sp1                        debuginfo    
 firebird-devel.x86_64                                   3.0.10.33601-1.oe2203sp1                        everything   
 firebird-help.noarch                                    3.0.10.33601-1.oe2203sp1                        everything   
-firefox.src                                             102.15.0-2.oe2203sp1                            update-source
 firefox.x86_64                                          102.15.0-2.oe2203sp1                            update       
+firefox.src                                             102.15.0-3.oe2203sp1                            update-source
 firefox-debuginfo.x86_64                                102.15.0-2.oe2203sp1                            update       
 firefox-debugsource.x86_64                              102.15.0-2.oe2203sp1                            update       
 firewalld.noarch                                        1.0.2-5.oe2203sp1                               OS           
@@ -4922,8 +4922,8 @@ gobject-introspection-devel.x86_64                      1.70.0-3.oe2203sp1      
 gobject-introspection-devel.x86_64                      1.70.0-3.oe2203sp1                              everything   
 gobject-introspection-help.noarch                       1.70.0-3.oe2203sp1                              OS           
 gobject-introspection-help.noarch                       1.70.0-3.oe2203sp1                              everything   
-golang.src                                              1.17.3-22.oe2203sp1                             update-source
 golang.x86_64                                           1.17.3-22.oe2203sp1                             update       
+golang.src                                              1.17.3-25.oe2203sp1                             update-source
 golang-devel.noarch                                     1.17.3-22.oe2203sp1                             update       
 golang-github-prometheus-node_exporter.src              1.0.1-2.oe2203sp1                               source       
 golang-github-prometheus-node_exporter.x86_64           1.0.1-2.oe2203sp1                               everything   
@@ -6562,8 +6562,8 @@ ipmitool-debuginfo.x86_64                               1.8.18-19.oe2203sp1     
 ipmitool-debugsource.x86_64                             1.8.18-19.oe2203sp1                             debuginfo    
 ipmitool-help.noarch                                    1.8.18-19.oe2203sp1                             OS           
 ipmitool-help.noarch                                    1.8.18-19.oe2203sp1                             everything   
-iproute.src                                             1:5.15.0-13.oe2203sp1                           update-source
 iproute.x86_64                                          1:5.15.0-13.oe2203sp1                           update       
+iproute.src                                             1:5.15.0-16.oe2203sp1                           update-source
 iproute-debuginfo.x86_64                                1:5.15.0-13.oe2203sp1                           update       
 iproute-debugsource.x86_64                              1:5.15.0-13.oe2203sp1                           update       
 iproute-devel.x86_64                                    1:5.15.0-13.oe2203sp1                           update       
@@ -7617,8 +7617,8 @@ keepalived.x86_64                                       2.2.4-2.oe2203sp1       
 keepalived-debuginfo.x86_64                             2.2.4-2.oe2203sp1                               debuginfo    
 keepalived-debugsource.x86_64                           2.2.4-2.oe2203sp1                               debuginfo    
 keepalived-help.noarch                                  2.2.4-2.oe2203sp1                               everything   
-kernel.src                                              5.10.0-136.52.0.131.oe2203sp1                   update-source
 kernel.x86_64                                           5.10.0-136.52.0.131.oe2203sp1                   update       
+kernel.src                                              5.10.0-136.53.0.132.oe2203sp1                   update-source
 kernel-debuginfo.x86_64                                 5.10.0-136.52.0.131.oe2203sp1                   update       
 kernel-debugsource.x86_64                               5.10.0-136.52.0.131.oe2203sp1                   update       
 kernel-devel.x86_64                                     5.10.0-136.52.0.131.oe2203sp1                   update       
@@ -12625,8 +12625,8 @@ nghttp2.x86_64                                          1.46.0-5.oe2203sp1      
 nghttp2-debuginfo.x86_64                                1.46.0-5.oe2203sp1                              update       
 nghttp2-debugsource.x86_64                              1.46.0-5.oe2203sp1                              update       
 nghttp2-help.noarch                                     1.46.0-5.oe2203sp1                              update       
-nginx.src                                               1:1.21.5-5.oe2203sp1                            source       
 nginx.x86_64                                            1:1.21.5-5.oe2203sp1                            everything   
+nginx.src                                               1:1.21.5-6.oe2203sp1                            update-source
 nginx-all-modules.noarch                                1:1.21.5-5.oe2203sp1                            everything   
 nginx-debuginfo.x86_64                                  1:1.21.5-5.oe2203sp1                            debuginfo    
 nginx-debugsource.x86_64                                1:1.21.5-5.oe2203sp1                            debuginfo    
@@ -12668,8 +12668,8 @@ nmstate.noarch                                          1.0.2-11.oe2203sp1      
 nmstate-plugin-ovsdb.noarch                             1.0.2-11.oe2203sp1                              EPOL         
 node-gyp.noarch                                         3.6.0-5.oe2203sp1                               everything   
 node-gyp.src                                            3.6.0-5.oe2203sp1                               source       
-nodejs.src                                              1:12.22.11-5.oe2203sp1                          update-source
 nodejs.x86_64                                           1:12.22.11-5.oe2203sp1                          update       
+nodejs.src                                              1:12.22.11-6.oe2203sp1                          update-source
 nodejs-abbrev.noarch                                    1.1.1-1.oe2203sp1                               everything   
 nodejs-abbrev.src                                       1.1.1-1.oe2203sp1                               source       
 nodejs-acorn.noarch                                     5.4.0-1.oe2203sp1                               everything   
@@ -18521,8 +18521,8 @@ pyyaml-debugsource.x86_64                               6.0-2.oe2203sp1         
 qdox.noarch                                             2.0-6.M9.oe2203sp1                              everything   
 qdox.src                                                2.0-6.M9.oe2203sp1                              source       
 qdox-help.noarch                                        2.0-6.M9.oe2203sp1                              everything   
-qemu.src                                                10:6.2.0-80.oe2203sp1                           update-source
 qemu.x86_64                                             10:6.2.0-80.oe2203sp1                           update       
+qemu.src                                                10:6.2.0-83.oe2203sp1                           update-source
 qemu-block-curl.x86_64                                  10:6.2.0-80.oe2203sp1                           update       
 qemu-block-iscsi.x86_64                                 10:6.2.0-80.oe2203sp1                           update       
 qemu-block-rbd.x86_64                                   10:6.2.0-80.oe2203sp1                           update       
@@ -20662,9 +20662,9 @@ sqljet-javadoc.noarch                                   1.1.10-1.oe2203sp1      
 squashfs-tools.src                                      4.5-4.oe2203sp1                                 source       
 squashfs-tools-debuginfo.x86_64                         4.5-4.oe2203sp1                                 debuginfo    
 squashfs-tools-debugsource.x86_64                       4.5-4.oe2203sp1                                 debuginfo    
-squid.src                                               7:4.9-17.oe2203sp1                              source       
 squid.x86_64                                            7:4.9-17.oe2203sp1                              OS           
 squid.x86_64                                            7:4.9-17.oe2203sp1                              everything   
+squid.src                                               7:4.9-18.oe2203sp1                              update-source
 squid-debuginfo.x86_64                                  7:4.9-17.oe2203sp1                              debuginfo    
 squid-debugsource.x86_64                                7:4.9-17.oe2203sp1                              debuginfo    
 srt.src                                                 1.4.1-4.oe2203sp1                               source       
@@ -27520,7 +27520,7 @@ tokyocabinet-debugsource.x86_64                         1.4.48-15.oe2203sp1     
 tokyocabinet-devel.x86_64                               1.4.48-15.oe2203sp1                             everything   
 tokyocabinet-help.noarch                                1.4.48-15.oe2203sp1                             everything   
 tomcat.noarch                                           1:9.0.10-31.oe2203sp1                           update       
-tomcat.src                                              1:9.0.10-31.oe2203sp1                           update-source
+tomcat.src                                              1:9.0.10-32.oe2203sp1                           update-source
 tomcat-help.noarch                                      1:9.0.10-31.oe2203sp1                           update       
 tomcat-jsvc.noarch                                      1:9.0.10-31.oe2203sp1                           update       
 tomcat-taglibs-parent.noarch                            3-10.oe2203sp1                                  everything   
@@ -27587,9 +27587,9 @@ trace-cmd.x86_64                                        2.9.2-9.oe2203sp1       
 trace-cmd-debuginfo.x86_64                              2.9.2-9.oe2203sp1                               update       
 trace-cmd-debugsource.x86_64                            2.9.2-9.oe2203sp1                               update       
 trace-cmd-help.noarch                                   2.9.2-9.oe2203sp1                               update       
-traceroute.src                                          3:2.1.0-11.oe2203sp1                            source       
 traceroute.x86_64                                       3:2.1.0-11.oe2203sp1                            OS           
 traceroute.x86_64                                       3:2.1.0-11.oe2203sp1                            everything   
+traceroute.src                                          3:2.1.2-2.oe2203sp1                             update-source
 traceroute-debuginfo.x86_64                             3:2.1.0-11.oe2203sp1                            debuginfo    
 traceroute-debugsource.x86_64                           3:2.1.0-11.oe2203sp1                            debuginfo    
 traceroute-help.noarch                                  3:2.1.0-11.oe2203sp1                            OS           
