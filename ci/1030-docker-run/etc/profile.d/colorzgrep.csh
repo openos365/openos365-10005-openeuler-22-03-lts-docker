@@ -1,4 +1,4 @@
-test -f /usr/libexec/grepconf.sh
+t -f /usr/libexec/grepconf.sh
 if ( $status == 1 ) exit
 
 /usr/libexec/grepconf.sh -c
