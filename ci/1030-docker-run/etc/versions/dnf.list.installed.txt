@@ -39,7 +39,7 @@ freetype.x86_64                     2.12.1-2.oe2203sp1               @update
 fuse.x86_64                         2.9.9-11.oe2203sp1               @System    
 fuse-common.x86_64                  3.10.5-5.oe2203sp1               @System    
 gawk.x86_64                         5.1.1-5.oe2203sp1                @update    
-gdb-gdbserver.x86_64                11.1-6.oe2203sp1                 @update    
+gdb-gdbserver.x86_64                11.1-7.oe2203sp1                 @update    
 gdbm.x86_64                         1:1.22-11.oe2203sp1              @update    
 gdisk.x86_64                        1.0.8-3.oe2203sp1                @OS        
 gettext.x86_64                      0.21.1-1.oe2203sp1               @OS        
@@ -166,8 +166,8 @@ openldap.x86_64                     2.6.0-7.oe2203sp1                @update
 openssh.x86_64                      8.8p1-23.oe2203sp1               @update    
 openssh-clients.x86_64              8.8p1-23.oe2203sp1               @update    
 openssh-server.x86_64               8.8p1-23.oe2203sp1               @update    
-openssl.x86_64                      1:1.1.1m-25.oe2203sp1            @update    
-openssl-libs.x86_64                 1:1.1.1m-25.oe2203sp1            @update    
+openssl.x86_64                      1:1.1.1m-29.oe2203sp1            @update    
+openssl-libs.x86_64                 1:1.1.1m-29.oe2203sp1            @update    
 os-prober.x86_64                    1.79-2.oe2203sp1                 @OS        
 p11-kit.x86_64                      0.24.0-2.oe2203sp1               @System    
 p11-kit-trust.x86_64                0.24.0-2.oe2203sp1               @System    
@@ -296,7 +296,7 @@ python3-requests.noarch             2.26.0-8.oe2203sp1               @update
 python3-rpm.x86_64                  4.17.0-22.oe2203sp1              @System    
 python3-setuptools.noarch           59.4.0-5.oe2203sp1               @update    
 python3-six.noarch                  1.16.0-2.oe2203sp1               @OS        
-python3-urllib3.noarch              1.26.12-5.oe2203sp1              @update    
+python3-urllib3.noarch              1.26.12-6.oe2203sp1              @update    
 qemu-img.x86_64                     10:6.2.0-83.oe2203sp1            @update    
 qt5-srpm-macros.noarch              5.15.2-1.oe2203sp1               @OS        
 readline.x86_64                     8.1-3.oe2203sp1                  @update    
