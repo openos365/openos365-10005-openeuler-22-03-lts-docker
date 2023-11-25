@@ -307,7 +307,7 @@ rpm-libs.x86_64                     4.17.0-22.oe2203sp1              @System
 rsync.x86_64                        3.2.5-1.oe2203sp1                @OS        
 sed.x86_64                          4.8-5.oe2203sp1                  @System    
 setup.noarch                        2.13.9.1-1.oe2203sp1             @System    
-shadow.x86_64                       2:4.9-13.oe2203sp1               @update    
+shadow.x86_64                       2:4.9-14.oe2203sp1               @update    
 slang.x86_64                        2.3.2-9.oe2203sp1                @System    
 sqlite.x86_64                       3.37.2-6.oe2203sp1               @update    
 squashfs-tools.x86_64               4.5-4.oe2203sp1                  @OS        
