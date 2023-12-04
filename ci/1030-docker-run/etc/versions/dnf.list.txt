@@ -956,8 +956,8 @@ apache-commons-logging-javadoc.noarch                   1.2-17.oe2203sp1        
 apache-commons-math.noarch                              3.6.1-1.oe2203sp1                               everything   
 apache-commons-math.src                                 3.6.1-1.oe2203sp1                               source       
 apache-commons-math-javadoc.noarch                      3.6.1-1.oe2203sp1                               everything   
-apache-commons-net.src                                  3.6-5.oe2203sp1                                 source       
 apache-commons-net.noarch                               3.6-7.oe2203sp1                                 update       
+apache-commons-net.src                                  3.6-7.oe2203sp1                                 update-source
 apache-commons-net-help.noarch                          3.6-7.oe2203sp1                                 update       
 apache-commons-ognl.noarch                              3.0.2-1.oe2203sp1                               everything   
 apache-commons-ognl.src                                 3.0.2-1.oe2203sp1                               source       
@@ -1270,7 +1270,7 @@ attr-help.x86_64                                        2.5.1-3.oe2203sp1       
 atune.src                                               1.0.0-14.oe2203sp1                              update-source
 atune.x86_64                                            1.0.0-14.oe2203sp1                              update       
 atune-client.x86_64                                     1.0.0-14.oe2203sp1                              update       
-atune-collector.src                                     1.1.0-5.oe2203sp1                               update-source
+atune-collector.src                                     1.1.0-6.oe2203sp1                               update-source
 atune-collector.x86_64                                  1.1.0-6.oe2203sp1                               update       
 atune-db.x86_64                                         1.0.0-14.oe2203sp1                              update       
 atune-engine.x86_64                                     1.0.0-14.oe2203sp1                              update       
@@ -2669,7 +2669,7 @@ dblatex.src                                             0.3.11-1.oe2203sp1      
 dblatex-help.noarch                                     0.3.11-1.oe2203sp1                              everything   
 dbus.src                                                1:1.12.20-9.oe2203sp1                           update-source
 dbus.x86_64                                             1:1.12.20-9.oe2203sp1                           update       
-dbus-broker.src                                         29-5.oe2203sp1                                  source       
+dbus-broker.src                                         29-9.oe2203sp1                                  update-source
 dbus-broker.x86_64                                      29-9.oe2203sp1                                  update       
 dbus-broker-debuginfo.x86_64                            29-9.oe2203sp1                                  update       
 dbus-broker-debugsource.x86_64                          29-9.oe2203sp1                                  update       
@@ -4264,7 +4264,7 @@ gd-debugsource.x86_64                                   2.3.3-2.oe2203sp1       
 gd-devel.x86_64                                         2.3.3-2.oe2203sp1                               OS           
 gd-devel.x86_64                                         2.3.3-2.oe2203sp1                               everything   
 gd-progs.x86_64                                         2.3.3-2.oe2203sp1                               everything   
-gdb.src                                                 11.1-7.oe2203sp1                                update-source
+gdb.src                                                 11.1-8.oe2203sp1                                update-source
 gdb.x86_64                                              11.1-8.oe2203sp1                                update       
 gdb-debuginfo.x86_64                                    11.1-8.oe2203sp1                                update       
 gdb-debugsource.x86_64                                  11.1-8.oe2203sp1                                update       
@@ -4903,7 +4903,7 @@ gnustep-base-libs.x86_64                                1.27.0-3.oe2203sp1      
 gnustep-filesystem.x86_64                               2.8.0-2.oe2203sp1                               EPOL         
 gnustep-make.x86_64                                     2.8.0-2.oe2203sp1                               EPOL         
 gnustep-make-doc.noarch                                 2.8.0-2.oe2203sp1                               EPOL         
-gnutls.src                                              3.7.2-9.oe2203sp1                               update-source
+gnutls.src                                              3.7.2-10.oe2203sp1                              update-source
 gnutls-debuginfo.x86_64                                 3.7.2-10.oe2203sp1                              update       
 gnutls-debugsource.x86_64                               3.7.2-10.oe2203sp1                              update       
 gnutls-devel.x86_64                                     3.7.2-10.oe2203sp1                              update       
@@ -5298,7 +5298,7 @@ graphviz-perl.x86_64                                    2.48.0-3.oe2203sp1      
 graphviz-python3.x86_64                                 2.48.0-3.oe2203sp1                              everything   
 graphviz-ruby.x86_64                                    2.48.0-3.oe2203sp1                              everything   
 graphviz-tcl.x86_64                                     2.48.0-3.oe2203sp1                              everything   
-grep.src                                                3.7-4.oe2203sp1                                 source       
+grep.src                                                3.7-9.oe2203sp1                                 update-source
 grep-debuginfo.x86_64                                   3.7-9.oe2203sp1                                 update       
 grep-debugsource.x86_64                                 3.7-9.oe2203sp1                                 update       
 grilo.src                                               0.3.13-2.oe2203sp1                              source       
@@ -5869,7 +5869,7 @@ htmlcxx.x86_64                                          0.86-1.oe2203sp1        
 htmlcxx-debuginfo.x86_64                                0.86-1.oe2203sp1                                EPOL         
 htmlcxx-debugsource.x86_64                              0.86-1.oe2203sp1                                EPOL         
 htmlcxx-devel.x86_64                                    0.86-1.oe2203sp1                                EPOL         
-htop.src                                                3.1.2-1.oe2203sp1                               source       
+htop.src                                                3.1.2-2.oe2203sp1                               update-source
 htop.x86_64                                             3.1.2-2.oe2203sp1                               update       
 htop-debuginfo.x86_64                                   3.1.2-2.oe2203sp1                               update       
 htop-debugsource.x86_64                                 3.1.2-2.oe2203sp1                               update       
@@ -7616,7 +7616,7 @@ keepalived.x86_64                                       2.2.4-2.oe2203sp1       
 keepalived-debuginfo.x86_64                             2.2.4-2.oe2203sp1                               debuginfo    
 keepalived-debugsource.x86_64                           2.2.4-2.oe2203sp1                               debuginfo    
 keepalived-help.noarch                                  2.2.4-2.oe2203sp1                               everything   
-kernel.src                                              5.10.0-136.55.0.134.oe2203sp1                   update-source
+kernel.src                                              5.10.0-136.56.0.135.oe2203sp1                   update-source
 kernel.x86_64                                           5.10.0-136.56.0.135.oe2203sp1                   update       
 kernel-debuginfo.x86_64                                 5.10.0-136.56.0.135.oe2203sp1                   update       
 kernel-debugsource.x86_64                               5.10.0-136.56.0.135.oe2203sp1                   update       
@@ -13681,7 +13681,7 @@ ntfs-3g-debuginfo.x86_64                                2:2022.5.17-2.oe2203sp1 
 ntfs-3g-debugsource.x86_64                              2:2022.5.17-2.oe2203sp1                         debuginfo    
 ntfs-3g-devel.x86_64                                    2:2022.5.17-2.oe2203sp1                         everything   
 ntfs-3g-help.x86_64                                     2:2022.5.17-2.oe2203sp1                         everything   
-ntp.src                                                 4.2.8p15-10.oe2203sp1                           update-source
+ntp.src                                                 4.2.8p15-13.oe2203sp1                           update-source
 ntp.x86_64                                              4.2.8p15-13.oe2203sp1                           update       
 ntp-debuginfo.x86_64                                    4.2.8p15-13.oe2203sp1                           update       
 ntp-debugsource.x86_64                                  4.2.8p15-13.oe2203sp1                           update       
@@ -13891,7 +13891,7 @@ onboard.x86_64                                          1.4.1-1.oe2203sp1       
 onboard-data.noarch                                     1.4.1-1.oe2203sp1                               EPOL         
 onboard-debuginfo.x86_64                                1.4.1-1.oe2203sp1                               EPOL         
 onboard-debugsource.x86_64                              1.4.1-1.oe2203sp1                               EPOL         
-oncn-bwm.src                                            1.1-1.oe2203sp1                                 update-source
+oncn-bwm.src                                            1.1-3.oe2203sp1                                 update-source
 oncn-bwm.x86_64                                         1.1-3.oe2203sp1                                 update       
 oncn-bwm-debuginfo.x86_64                               1.1-3.oe2203sp1                                 update       
 oncn-bwm-debugsource.x86_64                             1.1-3.oe2203sp1                                 update       
@@ -14227,7 +14227,7 @@ openwsman-winrs.x86_64                                  2.6.5-15.oe2203sp1      
 options.noarch                                          1.2-1.oe2203sp1                                 everything   
 options.src                                             1.2-1.oe2203sp1                                 source       
 options-help.noarch                                     1.2-1.oe2203sp1                                 everything   
-optipng.src                                             0.7.7-1.oe2203sp1                               source       
+optipng.src                                             0.7.8-1.oe2203sp1                               update-source
 optipng.x86_64                                          0.7.8-1.oe2203sp1                               update       
 optipng-debuginfo.x86_64                                0.7.8-1.oe2203sp1                               update       
 optipng-debugsource.x86_64                              0.7.8-1.oe2203sp1                               update       
@@ -14650,7 +14650,7 @@ perftest.x86_64                                         4.5-3.oe2203sp1         
 perftest.x86_64                                         4.5-3.oe2203sp1                                 everything   
 perftest-debuginfo.x86_64                               4.5-3.oe2203sp1                                 debuginfo    
 perftest-debugsource.x86_64                             4.5-3.oe2203sp1                                 debuginfo    
-perl.src                                                4:5.34.0-9.oe2203sp1                            update-source
+perl.src                                                4:5.34.0-10.oe2203sp1                           update-source
 perl-Algorithm-Diff.src                                 1:1.201-2.oe2203sp1                             source       
 perl-Algorithm-Diff-help.noarch                         1:1.201-2.oe2203sp1                             everything   
 perl-Alien-Build.noarch                                 2.48-1.oe2203sp1                                everything   
@@ -18591,7 +18591,7 @@ qscintilla-debuginfo.x86_64                             2.11.2-2.oe2203sp1      
 qscintilla-debugsource.x86_64                           2.11.2-2.oe2203sp1                              debuginfo    
 qscintilla-qt5.x86_64                                   2.11.2-2.oe2203sp1                              everything   
 qscintilla-qt5-devel.x86_64                             2.11.2-2.oe2203sp1                              everything   
-qt.src                                                  1:4.8.7-55.oe2203sp1                            update-source
+qt.src                                                  1:4.8.7-58.oe2203sp1                            update-source
 qt.x86_64                                               1:4.8.7-58.oe2203sp1                            update       
 qt-assistant-adp.src                                    4.6.3-20.oe2203sp1                              source       
 qt-assistant-adp.x86_64                                 4.6.3-20.oe2203sp1                              everything   
@@ -28132,7 +28132,7 @@ vid.stab.x86_64                                         1.1.0-1.oe2203sp1       
 vid.stab-debuginfo.x86_64                               1.1.0-1.oe2203sp1                               debuginfo    
 vid.stab-debugsource.x86_64                             1.1.0-1.oe2203sp1                               debuginfo    
 vid.stab-devel.x86_64                                   1.1.0-1.oe2203sp1                               everything   
-vim.src                                                 2:9.0-21.oe2203sp1                              update-source
+vim.src                                                 2:9.0-22.oe2203sp1                              update-source
 vim-X11.x86_64                                          2:9.0-22.oe2203sp1                              update       
 vim-debuginfo.x86_64                                    2:9.0-22.oe2203sp1                              update       
 vim-debugsource.x86_64                                  2:9.0-22.oe2203sp1                              update       
