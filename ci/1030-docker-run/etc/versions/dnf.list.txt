@@ -334,7 +334,7 @@ util-linux.x86_64                                       2.37.2-13.oe2203sp1     
 vim-common.x86_64                                       2:9.0-22.oe2203sp1                              @update      
 vim-enhanced.x86_64                                     2:9.0-22.oe2203sp1                              @update      
 vim-filesystem.noarch                                   2:9.0-22.oe2203sp1                              @update      
-vim-minimal.x86_64                                      2:9.0-22.oe2203sp1                              @update      
+vim-minimal.x86_64                                      2:9.0-23.oe2203sp1                              @update      
 wget.x86_64                                             1.21.2-3.oe2203sp1                              @OS          
 which.x86_64                                            2.21-15.oe2203sp1                               @System      
 xalan-j2.noarch                                         2.7.1-39.oe2203sp1                              @everything  
