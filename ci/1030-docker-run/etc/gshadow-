@@ -23,6 +23,7 @@ audio:::
 users:::
 nobody:::
 utmp:!::
+utempter:!::
 input:!::
 kvm:!::
 render:!::
@@ -30,7 +31,6 @@ systemd-journal:!::
 systemd-coredump:!::
 unbound:!::
 tss:!::
-utempter:!::
 sshd:!::
 ssh_keys:!::
 www:!::
