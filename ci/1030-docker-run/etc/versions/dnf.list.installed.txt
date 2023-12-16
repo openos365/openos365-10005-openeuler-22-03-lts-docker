@@ -16,7 +16,7 @@ crontabs.noarch                     1.11-23.oe2203sp1                @System
 crypto-policies.noarch              20200619-3.git781bbd4.oe2203sp1  @System    
 cryptsetup.x86_64                   2.4.1-2.oe2203sp1                @OS        
 cups-libs.x86_64                    1:2.4.0-10.oe2203sp1             @update    
-curl.x86_64                         7.79.1-24.oe2203sp1              @update    
+curl.x86_64                         7.79.1-25.oe2203sp1              @update    
 cyrus-sasl-lib.x86_64               2.1.28-1.oe2203sp1               @System    
 dbus-libs.x86_64                    1:1.12.20-9.oe2203sp1            @update    
 debootstrap.noarch                  1.0.109-3.oe2203sp1              @everything
@@ -92,7 +92,7 @@ libblkid.x86_64                     2.37.2-13.oe2203sp1              @System
 libcap.x86_64                       2.61-5.oe2203sp1                 @update    
 libcap-ng.x86_64                    0.8.3-1.oe2203sp1                @System    
 libcomps.x86_64                     0.1.18-2.oe2203sp1               @System    
-libcurl.x86_64                      7.79.1-24.oe2203sp1              @update    
+libcurl.x86_64                      7.79.1-25.oe2203sp1              @update    
 libdnf.x86_64                       0.69.0-6.oe2203sp1               @update    
 libedit.x86_64                      3.1-29.oe2203sp1                 @OS        
 libev.x86_64                        4.33-4.oe2203sp1                 @System    
@@ -118,7 +118,7 @@ librepo.x86_64                      1.14.2-4.oe2203sp1               @System
 libreport-filesystem.noarch         2.15.2-2.oe2203sp1               @System    
 libseccomp.x86_64                   2.5.3-3.oe2203sp1                @OS        
 libsecret.x86_64                    0.20.5-1.oe2203sp1               @OS        
-libselinux.x86_64                   3.3-2.oe2203sp1                  @System    
+libselinux.x86_64                   3.3-5.oe2203sp1                  @update    
 libsemanage.x86_64                  3.3-4.oe2203sp1                  @OS        
 libsepol.x86_64                     3.3-4.oe2203sp1                  @System    
 libsigsegv.x86_64                   2.14-1.oe2203sp1                 @System    
@@ -177,7 +177,7 @@ pam.x86_64                          1.5.2-6.oe2203sp1                @update
 parted.x86_64                       3.5-1.oe2203sp1                  @OS        
 pcre.x86_64                         8.45-5.oe2203sp1                 @System    
 pcre2.x86_64                        10.39-9.oe2203sp1                @update    
-perl.x86_64                         4:5.34.0-10.oe2203sp1            @update    
+perl.x86_64                         4:5.34.0-12.oe2203sp1            @update    
 perl-Algorithm-Diff.noarch          1:1.201-2.oe2203sp1              @OS        
 perl-Archive-Tar.noarch             2.40-2.oe2203sp1                 @OS        
 perl-B-Debug.noarch                 1.26-6.oe2203sp1                 @OS        
@@ -262,10 +262,10 @@ perl-Unicode-Normalize.x86_64       1.28-2.oe2203sp1                 @OS
 perl-autodie.noarch                 2.34-3.oe2203sp1                 @OS        
 perl-bignum.noarch                  0.63-2.oe2203sp1                 @OS        
 perl-constant.noarch                1.33-422.oe2203sp1               @OS        
-perl-devel.x86_64                   4:5.34.0-10.oe2203sp1            @update    
+perl-devel.x86_64                   4:5.34.0-12.oe2203sp1            @update    
 perl-experimental.noarch            0.025-2.oe2203sp1                @OS        
 perl-libnet.noarch                  3.14-2.oe2203sp1                 @OS        
-perl-libs.x86_64                    4:5.34.0-10.oe2203sp1            @update    
+perl-libs.x86_64                    4:5.34.0-12.oe2203sp1            @update    
 perl-parent.noarch                  1:0.238-2.oe2203sp1              @OS        
 perl-perlfaq.noarch                 5.20210520-2.oe2203sp1           @OS        
 perl-podlators.noarch               1:4.14-2.oe2203sp1               @OS        
@@ -316,9 +316,9 @@ squashfs-tools.x86_64               4.5-4.oe2203sp1                  @OS
 sudo.x86_64                         1.9.8p2-11.oe2203sp1             @update    
 syslinux.x86_64                     6.04-14.oe2203sp1                @update    
 syslinux-nonlinux.noarch            6.04-14.oe2203sp1                @update    
-systemd.x86_64                      249-58.oe2203sp1                 @update    
-systemd-libs.x86_64                 249-58.oe2203sp1                 @update    
-systemd-udev.x86_64                 249-58.oe2203sp1                 @update    
+systemd.x86_64                      249-59.oe2203sp1                 @update    
+systemd-libs.x86_64                 249-59.oe2203sp1                 @update    
+systemd-udev.x86_64                 249-59.oe2203sp1                 @update    
 systemtap-sdt-devel.x86_64          4.5-5.oe2203sp1                  @OS        
 tar.x86_64                          2:1.34-4.oe2203sp1               @update    
 tcl.x86_64                          1:8.6.12-4.oe2203sp1             @System    
