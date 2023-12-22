@@ -152,9 +152,9 @@ man-db.x86_64                                           2.11.0-1.oe2203sp1      
 mpfr.x86_64                                             4.1.0-2.oe2203sp1                               @System      
 mtools.x86_64                                           4.0.35-2.oe2203sp1                              @OS          
 multipath-tools.x86_64                                  0.8.7-8.oe2203sp1                               @OS          
-ncurses.x86_64                                          6.3-8.oe2203sp1                                 @update      
-ncurses-base.noarch                                     6.3-8.oe2203sp1                                 @update      
-ncurses-libs.x86_64                                     6.3-8.oe2203sp1                                 @update      
+ncurses.x86_64                                          6.3-9.oe2203sp1                                 @update      
+ncurses-base.noarch                                     6.3-9.oe2203sp1                                 @update      
+ncurses-libs.x86_64                                     6.3-9.oe2203sp1                                 @update      
 nettle.x86_64                                           3.8.1-1.oe2203sp1                               @OS          
 newt.x86_64                                             0.52.21-9.oe2203sp1                             @update      
 npth.x86_64                                             1.6-3.oe2203sp1                                 @System      
