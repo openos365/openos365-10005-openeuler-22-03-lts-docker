@@ -297,7 +297,7 @@ python3-pysocks.noarch                                  1.7.1-2.oe2203sp1       
 python3-pyxattr.x86_64                                  0.7.2-3.oe2203sp1                               @OS          
 python3-pyyaml.x86_64                                   6.0-2.oe2203sp1                                 @OS          
 python3-requests.noarch                                 2.26.0-8.oe2203sp1                              @update      
-python3-rpm.x86_64                                      4.17.0-22.oe2203sp1                             @System      
+python3-rpm.x86_64                                      4.17.0-32.oe2203sp1                             @update      
 python3-setuptools.noarch                               59.4.0-5.oe2203sp1                              @update      
 python3-six.noarch                                      1.16.0-2.oe2203sp1                              @OS          
 python3-urllib3.noarch                                  1.26.12-6.oe2203sp1                             @update      
@@ -306,8 +306,8 @@ qt5-srpm-macros.noarch                                  5.15.2-1.oe2203sp1      
 readline.x86_64                                         8.1-3.oe2203sp1                                 @update      
 relaxngDatatype.noarch                                  2011.1-9.oe2203sp1                              @everything  
 rootfiles.noarch                                        8.1-25.oe2203sp1                                @System      
-rpm.x86_64                                              4.17.0-22.oe2203sp1                             @System      
-rpm-libs.x86_64                                         4.17.0-22.oe2203sp1                             @System      
+rpm.x86_64                                              4.17.0-32.oe2203sp1                             @update      
+rpm-libs.x86_64                                         4.17.0-32.oe2203sp1                             @update      
 rsync.x86_64                                            3.2.5-1.oe2203sp1                               @OS          
 sed.x86_64                                              4.8-5.oe2203sp1                                 @System      
 setup.noarch                                            2.13.9.1-1.oe2203sp1                            @System      
@@ -322,7 +322,7 @@ systemd.x86_64                                          249-59.oe2203sp1        
 systemd-libs.x86_64                                     249-59.oe2203sp1                                @update      
 systemd-udev.x86_64                                     249-59.oe2203sp1                                @update      
 systemtap-sdt-devel.x86_64                              4.5-5.oe2203sp1                                 @OS          
-tar.x86_64                                              2:1.34-4.oe2203sp1                              @update      
+tar.x86_64                                              2:1.34-5.oe2203sp1                              @update      
 tcl.x86_64                                              1:8.6.12-4.oe2203sp1                            @System      
 thin-provisioning-tools.x86_64                          0.9.0-4.oe2203sp1                               @OS          
 thin-provisioning-tools-help.noarch                     0.9.0-4.oe2203sp1                               @OS          

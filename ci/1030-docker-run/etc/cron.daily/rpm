@@ -1,4 +1,7 @@
 #!/bin/sh
+if [ ! -e /usr/lib64/librpm.so.9.2.0 ]; then
+    exit 0
+fi
 
 tmpfile=`/bin/mktemp /var/log/rpmpkgs.XXXXXXXXX` || exit 1
 /bin/rpm -qa --qf '%{name}-%{version}-%{release}.%{arch}.rpm\n' 2>&1 \
