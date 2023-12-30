@@ -165,9 +165,9 @@ openEuler-release.x86_64            22.03LTS_SP1-56.oe2203sp1        @System
 openEuler-repos.x86_64              1.0-3.6.oe2203sp1                @update    
 openEuler-rpm-config.x86_64         30-33.oe2203sp1                  @OS        
 openldap.x86_64                     2.6.0-7.oe2203sp1                @update    
-openssh.x86_64                      8.8p1-23.oe2203sp1               @update    
-openssh-clients.x86_64              8.8p1-23.oe2203sp1               @update    
-openssh-server.x86_64               8.8p1-23.oe2203sp1               @update    
+openssh.x86_64                      8.8p1-25.oe2203sp1               @update    
+openssh-clients.x86_64              8.8p1-25.oe2203sp1               @update    
+openssh-server.x86_64               8.8p1-25.oe2203sp1               @update    
 openssl.x86_64                      1:1.1.1m-29.oe2203sp1            @update    
 openssl-libs.x86_64                 1:1.1.1m-29.oe2203sp1            @update    
 os-prober.x86_64                    1.79-2.oe2203sp1                 @OS        
