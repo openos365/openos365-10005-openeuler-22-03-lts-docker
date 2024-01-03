@@ -22,6 +22,8 @@ lock:::
 audio:::
 users:::
 nobody:::
+unbound:!::
+tss:!::
 utmp:!::
 utempter:!::
 input:!::
@@ -29,8 +31,6 @@ kvm:!::
 render:!::
 systemd-journal:!::
 systemd-coredump:!::
-unbound:!::
-tss:!::
 sshd:!::
 ssh_keys:!::
 www:!::
