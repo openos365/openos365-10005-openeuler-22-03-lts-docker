@@ -124,7 +124,7 @@ libsepol.x86_64                     3.3-5.oe2203sp3                  @System
 libsigsegv.x86_64                   2.14-1.oe2203sp3                 @System    
 libsmartcols.x86_64                 2.37.2-23.oe2203sp3              @System    
 libsolv.x86_64                      0.7.22-2.oe2203sp3               @System    
-libssh.x86_64                       0.9.6-7.oe2203sp3                @System    
+libssh.x86_64                       0.9.6-8.oe2203sp3                @update    
 libstdc++.x86_64                    10.3.1-49.oe2203sp3              @System    
 libtasn1.x86_64                     4.19.0-1.oe2203sp3               @System    
 libtirpc.x86_64                     1.3.2-4.oe2203sp3                @System    
@@ -310,9 +310,9 @@ sed.x86_64                          4.8-6.oe2203sp3                  @System
 setup.noarch                        2.13.9.1-1.oe2203sp3             @System    
 shadow.x86_64                       2:4.9-14.oe2203sp3               @System    
 slang.x86_64                        2.3.3-2.oe2203sp3                @System    
-sqlite.x86_64                       3.37.2-6.oe2203sp3               @System    
+sqlite.x86_64                       3.37.2-7.oe2203sp3               @update    
 squashfs-tools.x86_64               4.5-4.oe2203sp3                  @OS        
-sudo.x86_64                         1.9.8p2-15.oe2203sp3             @OS        
+sudo.x86_64                         1.9.8p2-16.oe2203sp3             @update    
 syslinux.x86_64                     6.04-14.oe2203sp3                @OS        
 syslinux-nonlinux.noarch            6.04-14.oe2203sp3                @OS        
 systemd.x86_64                      249-63.oe2203sp3                 @OS        
