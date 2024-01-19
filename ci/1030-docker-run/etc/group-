@@ -31,7 +31,5 @@ kvm:x:36:
 render:x:997:
 systemd-journal:x:190:
 systemd-coredump:x:996:
-sshd:x:74:
-ssh_keys:x:995:
 www:x:1000:
 runner:x:1001:
