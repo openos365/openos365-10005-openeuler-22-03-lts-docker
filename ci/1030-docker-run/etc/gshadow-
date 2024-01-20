@@ -31,5 +31,7 @@ kvm:!::
 render:!::
 systemd-journal:!::
 systemd-coredump:!::
+sshd:!::
+ssh_keys:!::
 www:!::
 runner:!::
