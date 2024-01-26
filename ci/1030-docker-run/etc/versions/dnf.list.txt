@@ -1020,7 +1020,7 @@ apache-rat-tasks.noarch                                 0.12-1.oe2203sp3        
 apache-resource-bundles.noarch                          2-23.oe2203sp3                                       everything   
 apache-resource-bundles.src                             2-23.oe2203sp3                                       source       
 apache-sshd.noarch                                      1:2.9.2-2.oe2203sp3                                  update       
-apache-sshd.src                                         1:2.9.2-2.oe2203sp3                                  update-source
+apache-sshd.src                                         1:2.9.2-3.oe2203sp3                                  update-source
 apache-sshd-javadoc.noarch                              1:2.9.2-2.oe2203sp3                                  update       
 apache2-mod_xforward.src                                0.6-lp151.1.5.oe2203sp3                              source       
 apache2-mod_xforward.x86_64                             0.6-lp151.1.5.oe2203sp3                              everything   
@@ -5212,7 +5212,7 @@ gnustep-base-libs.x86_64                                1.27.0-3.oe2203sp3      
 gnustep-filesystem.x86_64                               2.8.0-2.oe2203sp3                                    EPOL         
 gnustep-make.x86_64                                     2.8.0-2.oe2203sp3                                    EPOL         
 gnustep-make-doc.noarch                                 2.8.0-2.oe2203sp3                                    EPOL         
-gnutls.src                                              3.7.2-10.oe2203sp3                                   source       
+gnutls.src                                              3.7.2-11.oe2203sp3                                   update-source
 gnutls-debuginfo.x86_64                                 3.7.2-10.oe2203sp3                                   debuginfo    
 gnutls-debugsource.x86_64                               3.7.2-10.oe2203sp3                                   debuginfo    
 gnutls-devel.x86_64                                     3.7.2-10.oe2203sp3                                   OS           
@@ -6051,8 +6051,8 @@ hamcrest.noarch                                         1.3-25.oe2203sp3        
 hamcrest.src                                            1.3-25.oe2203sp3                                     source       
 hamcrest-demo.noarch                                    1.3-25.oe2203sp3                                     everything   
 hamcrest-help.noarch                                    1.3-25.oe2203sp3                                     everything   
-haproxy.src                                             2.6.6-8.oe2203sp3                                    source       
 haproxy.x86_64                                          2.6.6-8.oe2203sp3                                    everything   
+haproxy.src                                             2.6.6-9.oe2203sp3                                    update-source
 haproxy-debuginfo.x86_64                                2.6.6-8.oe2203sp3                                    debuginfo    
 haproxy-debugsource.x86_64                              2.6.6-8.oe2203sp3                                    debuginfo    
 haproxy-help.noarch                                     2.6.6-8.oe2203sp3                                    everything   
@@ -8034,8 +8034,8 @@ keepalived.x86_64                                       2.2.4-2.oe2203sp3       
 keepalived-debuginfo.x86_64                             2.2.4-2.oe2203sp3                                    debuginfo    
 keepalived-debugsource.x86_64                           2.2.4-2.oe2203sp3                                    debuginfo    
 keepalived-help.noarch                                  2.2.4-2.oe2203sp3                                    everything   
-kernel.src                                              5.10.0-184.0.0.97.oe2203sp3                          update-source
 kernel.x86_64                                           5.10.0-184.0.0.97.oe2203sp3                          update       
+kernel.src                                              5.10.0-185.0.0.98.oe2203sp3                          update-source
 kernel-debuginfo.x86_64                                 5.10.0-184.0.0.97.oe2203sp3                          update       
 kernel-debugsource.x86_64                               5.10.0-184.0.0.97.oe2203sp3                          update       
 kernel-devel.x86_64                                     5.10.0-184.0.0.97.oe2203sp3                          update       
@@ -13023,7 +13023,7 @@ mysql-common.x86_64                                     8.0.35-2.oe2203sp3      
 mysql-config.x86_64                                     8.0.35-2.oe2203sp3                                   OS           
 mysql-config.x86_64                                     8.0.35-2.oe2203sp3                                   everything   
 mysql-connector-java.noarch                             1:8.0.16-1.oe2203sp3                                 everything   
-mysql-connector-java.src                                1:8.0.16-1.oe2203sp3                                 source       
+mysql-connector-java.src                                1:8.0.30-1.oe2203sp3                                 update-source
 mysql-debuginfo.x86_64                                  8.0.35-2.oe2203sp3                                   debuginfo    
 mysql-debugsource.x86_64                                8.0.35-2.oe2203sp3                                   debuginfo    
 mysql-devel.x86_64                                      8.0.35-2.oe2203sp3                                   everything   
@@ -18116,7 +18116,7 @@ python-persist-queue-help.noarch                        0.7.0-1.oe2203sp3       
 python-pexpect.src                                      4.8.0-2.oe2203sp3                                    source       
 python-pexpect-help.noarch                              4.8.0-2.oe2203sp3                                    everything   
 python-pid.src                                          3.0.4-5.oe2203sp3                                    source       
-python-pillow.src                                       9.0.1-5.oe2203sp3                                    source       
+python-pillow.src                                       9.0.1-6.oe2203sp3                                    update-source
 python-pillow-debuginfo.x86_64                          9.0.1-5.oe2203sp3                                    debuginfo    
 python-pillow-debugsource.x86_64                        9.0.1-5.oe2203sp3                                    debuginfo    
 python-pint-help.noarch                                 0.18-1.oe2203sp3                                     EPOL         
@@ -21117,8 +21117,8 @@ safelease.x86_64                                        1.0.1-2.oe2203sp3       
 safelease-debuginfo.x86_64                              1.0.1-2.oe2203sp3                                    EPOL         
 safelease-debugsource.x86_64                            1.0.1-2.oe2203sp3                                    EPOL         
 saidar.x86_64                                           1:0.92.1-1.oe2203sp3                                 EPOL         
-samba.src                                               4.17.5-11.oe2203sp3                                  update-source
 samba.x86_64                                            4.17.5-11.oe2203sp3                                  update       
+samba.src                                               4.17.5-12.oe2203sp3                                  update-source
 samba-client.x86_64                                     4.17.5-11.oe2203sp3                                  update       
 samba-client-libs.x86_64                                4.17.5-11.oe2203sp3                                  update       
 samba-common.x86_64                                     4.17.5-11.oe2203sp3                                  update       
@@ -28759,7 +28759,7 @@ tokyocabinet-debugsource.x86_64                         1.4.48-15.oe2203sp3     
 tokyocabinet-devel.x86_64                               1.4.48-15.oe2203sp3                                  everything   
 tokyocabinet-help.noarch                                1.4.48-15.oe2203sp3                                  everything   
 tomcat.noarch                                           1:9.0.10-32.oe2203sp3                                everything   
-tomcat.src                                              1:9.0.10-32.oe2203sp3                                source       
+tomcat.src                                              1:9.0.10-33.oe2203sp3                                update-source
 tomcat-help.noarch                                      1:9.0.10-32.oe2203sp3                                everything   
 tomcat-jsvc.noarch                                      1:9.0.10-32.oe2203sp3                                everything   
 tomcat-taglibs-parent.noarch                            3-10.oe2203sp3                                       everything   
@@ -30219,9 +30219,9 @@ xorg-x11-fonts-others.noarch                            7.5-25.oe2203sp3        
 xorg-x11-proto-devel.noarch                             2021.5-2.oe2203sp3                                   OS           
 xorg-x11-proto-devel.noarch                             2021.5-2.oe2203sp3                                   everything   
 xorg-x11-proto-devel.src                                2021.5-2.oe2203sp3                                   source       
-xorg-x11-server.src                                     1.20.11-24.oe2203sp3                                 source       
 xorg-x11-server.x86_64                                  1.20.11-24.oe2203sp3                                 OS           
 xorg-x11-server.x86_64                                  1.20.11-24.oe2203sp3                                 everything   
+xorg-x11-server.src                                     1.20.11-25.oe2203sp3                                 update-source
 xorg-x11-server-Xdmx.x86_64                             1.20.11-24.oe2203sp3                                 everything   
 xorg-x11-server-Xephyr.x86_64                           1.20.11-24.oe2203sp3                                 everything   
 xorg-x11-server-Xnest.x86_64                            1.20.11-24.oe2203sp3                                 everything   
