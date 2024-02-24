@@ -46,7 +46,7 @@ gdisk.x86_64                        1.0.8-3.oe2203sp3                @OS
 gettext.x86_64                      0.21.1-1.oe2203sp3               @OS        
 git.x86_64                          2.33.0-13.oe2203sp3              @OS        
 git-core.x86_64                     2.33.0-13.oe2203sp3              @OS        
-glib2.x86_64                        2.72.2-12.oe2203sp3              @System    
+glib2.x86_64                        2.72.2-14.oe2203sp3              @update    
 glibc.x86_64                        2.34-143.oe2203sp3               @System    
 glibc-common.x86_64                 2.34-143.oe2203sp3               @System    
 gmp.x86_64                          1:6.2.1-3.oe2203sp3              @System    
@@ -135,7 +135,7 @@ libuuid.x86_64                      2.37.2-23.oe2203sp3              @System
 libverto.x86_64                     0.3.2-3.oe2203sp3                @System    
 libxcrypt.x86_64                    4.4.26-5.oe2203sp3               @System    
 libxkbcommon.x86_64                 1.3.1-4.oe2203sp3                @OS        
-libxml2.x86_64                      2.9.14-9.oe2203sp3               @System    
+libxml2.x86_64                      2.9.14-10.oe2203sp3              @update    
 libxslt.x86_64                      1.1.37-1.oe2203sp3               @OS        
 libyaml.x86_64                      0.2.5-5.oe2203sp3                @System    
 lksctp-tools.x86_64                 1.0.19-3.oe2203sp3               @OS        
