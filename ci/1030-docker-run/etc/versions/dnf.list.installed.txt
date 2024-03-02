@@ -2,7 +2,7 @@ attr.x86_64                         2.5.1-4.oe2203sp3                @System
 audit-libs.x86_64                   1:3.0.1-11.oe2203sp3             @System    
 avahi-libs.x86_64                   0.8-19.oe2203sp3                 @update    
 basesystem.noarch                   12-3.oe2203sp3                   @System    
-bash.x86_64                         5.1.8-12.oe2203sp3               @System    
+bash.x86_64                         5.1.8-14.oe2203sp3               @update    
 bash-completion.noarch              1:2.11-3.oe2203sp3               @OS        
 bc.x86_64                           1.07.1-12.oe2203sp3              @System    
 brotli.x86_64                       1.0.9-3.oe2203sp3                @System    
@@ -31,7 +31,7 @@ e2fsprogs.x86_64                    1.46.4-24.oe2203sp3              @System
 efi-srpm-macros.noarch              4-9.oe2203sp3                    @OS        
 elfutils.x86_64                     0.185-18.oe2203sp3               @System    
 expat.x86_64                        2.4.1-8.oe2203sp3                @System    
-expect.x86_64                       1:5.45.4-7.oe2203sp3             @OS        
+expect.x86_64                       1:5.45.4-8.oe2203sp3             @update    
 file.x86_64                         5.41-3.oe2203sp3                 @OS        
 file-libs.x86_64                    5.41-3.oe2203sp3                 @System    
 filesystem.x86_64                   3.16-5.oe2203sp3                 @System    
@@ -82,7 +82,7 @@ kmod.x86_64                         29-8.oe2203sp3                   @OS
 kmod-libs.x86_64                    29-8.oe2203sp3                   @OS        
 kpartx.x86_64                       0.8.7-10.oe2203sp3               @OS        
 krb5-libs.x86_64                    1.19.2-11.oe2203sp3              @System    
-less.x86_64                         590-4.oe2203sp3                  @OS        
+less.x86_64                         590-5.oe2203sp3                  @update    
 libacl.x86_64                       2.3.1-2.oe2203sp3                @System    
 libaio.x86_64                       0.3.113-9.oe2203sp3              @OS        
 libarchive.x86_64                   3.5.2-6.oe2203sp3                @System    
@@ -99,9 +99,9 @@ libev.x86_64                        4.33-4.oe2203sp3                 @System
 libevent.x86_64                     2.1.12-7.oe2203sp3               @System    
 libfdisk.x86_64                     2.37.2-23.oe2203sp3              @OS        
 libffi.x86_64                       3.4.2-8.oe2203sp3                @System    
-libgcc.x86_64                       10.3.1-49.oe2203sp3              @System    
+libgcc.x86_64                       10.3.1-51.oe2203sp3              @update    
 libgcrypt.x86_64                    1.10.2-1.oe2203sp3               @System    
-libgomp.x86_64                      10.3.1-49.oe2203sp3              @System    
+libgomp.x86_64                      10.3.1-51.oe2203sp3              @update    
 libgpg-error.x86_64                 1.46-1.oe2203sp3                 @System    
 libidn2.x86_64                      2.3.2-3.oe2203sp3                @System    
 libksba.x86_64                      1.6.4-1.oe2203sp3                @System    
@@ -125,7 +125,7 @@ libsigsegv.x86_64                   2.14-1.oe2203sp3                 @System
 libsmartcols.x86_64                 2.37.2-23.oe2203sp3              @System    
 libsolv.x86_64                      0.7.22-2.oe2203sp3               @System    
 libssh.x86_64                       0.9.6-8.oe2203sp3                @update    
-libstdc++.x86_64                    10.3.1-49.oe2203sp3              @System    
+libstdc++.x86_64                    10.3.1-51.oe2203sp3              @update    
 libtasn1.x86_64                     4.19.0-1.oe2203sp3               @System    
 libtirpc.x86_64                     1.3.2-4.oe2203sp3                @System    
 libunistring.x86_64                 1.0-3.oe2203sp3                  @System    
@@ -150,9 +150,9 @@ man-db.x86_64                       2.11.0-4.oe2203sp3               @OS
 mpfr.x86_64                         4.1.0-2.oe2203sp3                @System    
 mtools.x86_64                       4.0.35-2.oe2203sp3               @OS        
 multipath-tools.x86_64              0.8.7-10.oe2203sp3               @OS        
-ncurses.x86_64                      6.3-14.oe2203sp3                 @update    
-ncurses-base.noarch                 6.3-14.oe2203sp3                 @update    
-ncurses-libs.x86_64                 6.3-14.oe2203sp3                 @update    
+ncurses.x86_64                      6.3-15.oe2203sp3                 @update    
+ncurses-base.noarch                 6.3-15.oe2203sp3                 @update    
+ncurses-libs.x86_64                 6.3-15.oe2203sp3                 @update    
 nettle.x86_64                       3.8.1-1.oe2203sp3                @System    
 newt.x86_64                         0.52.23-1.oe2203sp3              @System    
 npth.x86_64                         1.6-3.oe2203sp3                  @System    
@@ -294,7 +294,7 @@ python3-pysocks.noarch              1.7.1-2.oe2203sp3                @OS
 python3-pyxattr.x86_64              0.7.2-5.oe2203sp3                @OS        
 python3-pyyaml.x86_64               6.0-2.oe2203sp3                  @OS        
 python3-requests.noarch             2.26.0-8.oe2203sp3               @OS        
-python3-rpm.x86_64                  4.17.0-32.oe2203sp3              @System    
+python3-rpm.x86_64                  4.17.0-33.oe2203sp3              @update    
 python3-setuptools.noarch           59.4.0-5.oe2203sp3               @OS        
 python3-six.noarch                  1.16.0-2.oe2203sp3               @OS        
 python3-urllib3.noarch              1.26.12-6.oe2203sp3              @OS        
@@ -303,8 +303,8 @@ qt5-srpm-macros.noarch              5.15.2-1.oe2203sp3               @OS
 readline.x86_64                     8.1-3.oe2203sp3                  @System    
 relaxngDatatype.noarch              2011.1-9.oe2203sp3               @everything
 rootfiles.noarch                    8.1-25.oe2203sp3                 @System    
-rpm.x86_64                          4.17.0-32.oe2203sp3              @System    
-rpm-libs.x86_64                     4.17.0-32.oe2203sp3              @System    
+rpm.x86_64                          4.17.0-33.oe2203sp3              @update    
+rpm-libs.x86_64                     4.17.0-33.oe2203sp3              @update    
 rsync.x86_64                        3.2.5-2.oe2203sp3                @OS        
 sed.x86_64                          4.8-6.oe2203sp3                  @System    
 setup.noarch                        2.13.9.1-1.oe2203sp3             @System    
@@ -315,9 +315,9 @@ squashfs-tools.x86_64               4.5-4.oe2203sp3                  @OS
 sudo.x86_64                         1.9.8p2-16.oe2203sp3             @update    
 syslinux.x86_64                     6.04-14.oe2203sp3                @OS        
 syslinux-nonlinux.noarch            6.04-14.oe2203sp3                @OS        
-systemd.x86_64                      249-63.oe2203sp3                 @OS        
-systemd-libs.x86_64                 249-63.oe2203sp3                 @System    
-systemd-udev.x86_64                 249-63.oe2203sp3                 @OS        
+systemd.x86_64                      249-69.oe2203sp3                 @update    
+systemd-libs.x86_64                 249-69.oe2203sp3                 @update    
+systemd-udev.x86_64                 249-69.oe2203sp3                 @update    
 systemtap-sdt-devel.x86_64          4.5-5.oe2203sp3                  @OS        
 tar.x86_64                          2:1.34-5.oe2203sp3               @System    
 tcl.x86_64                          1:8.6.12-4.oe2203sp3             @System    
@@ -326,7 +326,7 @@ thin-provisioning-tools-help.noarch 0.9.0-4.oe2203sp3                @OS
 tpm2-tss.x86_64                     3.1.0-4.oe2203sp3                @System    
 tzdata.noarch                       2022a-16.oe2203sp3               @System    
 tzdata-java.noarch                  2022a-16.oe2203sp3               @OS        
-unbound-libs.x86_64                 1.13.2-8.oe2203sp3               @System    
+unbound-libs.x86_64                 1.13.2-10.oe2203sp3              @update    
 userspace-rcu.x86_64                0.13.0-5.oe2203sp3               @OS        
 util-linux.x86_64                   2.37.2-23.oe2203sp3              @OS        
 vim-common.x86_64                   2:9.0-23.oe2203sp3               @OS        
