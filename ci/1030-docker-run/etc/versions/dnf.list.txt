@@ -11571,8 +11571,9 @@ llvm-debugsource.x86_64                                 12.0.1-6.oe2203sp3      
 llvm-devel.x86_64                                       12.0.1-6.oe2203sp3                                   update       
 llvm-help.noarch                                        12.0.1-6.oe2203sp3                                   update       
 llvm-libs.x86_64                                        12.0.1-6.oe2203sp3                                   update       
-llvm-libunwind.x86_64                                   12.0.1-1.oe2203sp3                                   EPOL         
-llvm-libunwind-devel.x86_64                             12.0.1-1.oe2203sp3                                   EPOL         
+llvm-libunwind.src                                      12.0.1-2.oe2203sp3                                   update-source
+llvm-libunwind.x86_64                                   12.0.1-2.oe2203sp3                                   update       
+llvm-libunwind-devel.x86_64                             12.0.1-2.oe2203sp3                                   update       
 llvm-mlir.src                                           12.0.1-0.oe2203sp3                                   source       
 llvm-mlir.x86_64                                        12.0.1-0.oe2203sp3                                   everything   
 llvm-mlir-debuginfo.x86_64                              12.0.1-0.oe2203sp3                                   debuginfo    
